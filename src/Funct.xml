@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testing.org/testing-1.0.dtd" >
+<suite name="Adhoc" parallel="tests"thread-count="5">
+<test name="funstion">
+<parameter name="browser" value="Firefox"></parameter>
+<classes>
+<!--  class name="Automatiom.Hhomescnario"></class>-->
+<class name="Automation.provider" ></class>
+</classes>
+</test>
+<test name="code">
+<parameter name=browser="firefox"></parameter>
+<classes>
+<class name ="automation.Hhomescnario"></class>
+<class name="automation.providers"></class>
+</classes>
+</test>
+</suite>
+
+
+
